@@ -87,7 +87,6 @@ a:hover {
   right: 0.5rem;
   top: 1.5rem;
 }
-
 .products {
   display: flex;
   justify-content: center;
@@ -126,4 +125,21 @@ a:hover {
 }
 .product-rating {
   margin-bottom: 1rem;
+}
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.content-margined {
+  margin: 1rem;
+}
+.table {
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+tbody > tr:nth-child(odd) {
+  background-color: #f0f0f0;
 }
