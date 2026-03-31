@@ -1,6 +1,0 @@
-@PROJECT_ACCTMIS_4630_HostAddress = http://localhost:5059
-
-GET {{PROJECT_ACCTMIS_4630_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
